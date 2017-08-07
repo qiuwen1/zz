@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+a, input, button, select, textarea {
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  border: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+header .head, header ol, .nav ul, .bto .aaa, .con h3, .con .dll, footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+html, body, .wrap {
+  font-size: .16rem;
+  display: flex;
+  flex-direction: column; }
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../fonts/iconfont.woff), url(../fonts/iconfont.ttp), url(../fonts/iconfont.eot); }
+header {
+  height: .5rem;
+  line-height: .5rem;
+  flex-shrink: 0; }
+  header .head {
+    height: .5rem;
+    line-height: .5rem; }
+  header a {
+    width: 20%;
+    color: #828C9B;
+    text-align: center; }
+  header ol {
+    width: 35%;
+    height: .5rem; }
+    header ol li {
+      width: 50%;
+      text-align: center; }
+  header .bg {
+    color: #FC062E;
+    border-bottom: 2px solid #FC062E; }
+
+.main {
+  flex: 1;
+  overflow: hidden; }
+
+.nav {
+  background: #F3F3F3;
+  height: .5rem;
+  position: relative; }
+  .nav ul {
+    width: 90%;
+    height: .3rem;
+    border: 1px solid #D4D4D4;
+    border-radius: 6px;
+    background: #fff;
+    margin-left: 5%;
+    position: absolute;
+    top: .1rem; }
+    .nav ul li {
+      width: 40%;
+      line-height: .3rem;
+      height: .3rem;
+      text-align: center;
+      border-left: 1px solid #D4D4D4; }
+  .nav .on {
+    background: #FE4D4D;
+    color: #fff; }
+
+.bto {
+  width: 100%;
+  height: .35rem;
+  position: relative; }
+  .bto .aaa {
+    width: 100%;
+    height: .35rem;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .bto a {
+    width: 20%;
+    text-align: center;
+    font-size: 0.08rem;
+    height: .35rem;
+    line-height: .35rem;
+    color: #828C9B; }
+  .bto .aa {
+    color: #FE4D4D; }
+
+.con {
+  width: 100%;
+  height: 1.2rem;
+  border-top: 1px solid #ccc;
+  position: relative; }
+  .con h3 {
+    width: 53%;
+    padding-left: 15%;
+    line-height: .4rem;
+    font-size: .11rem; }
+    .con h3 i {
+      color: #D8D8D8; }
+  .con .spans {
+    border: 1px solid #40bc44;
+    line-height: .17rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    color: #40bc44;
+    font-size: .12rem;
+    width: .6rem;
+    position: absolute;
+    right: .2rem;
+    top: 0.08rem; }
+  .con .dll {
+    width: 100%; }
+    .con .dll dl {
+      height: .4rem;
+      text-align: center; }
+      .con .dll dl dd {
+        font-size: .1rem;
+        color: #7F7F7F;
+        line-height: .2rem; }
+    .con .dll dl:nth-child(1) {
+      width: 27%; }
+      .con .dll dl:nth-child(1) dt {
+        color: #2FACEF; }
+    .con .dll dl:nth-child(4) {
+      width: 27%; }
+      .con .dll dl:nth-child(4) dt {
+        color: #DFDFDF;
+        letter-spacing: 3px; }
+        .con .dll dl:nth-child(4) dt .iconfont {
+          font-size: 0.08rem; }
+    .con .dll dl:nth-child(2) {
+      width: 20%;
+      height: .4rem; }
+
+.ding {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-color: transparent transparent #7fdd81 transparent;
+  border-style: solid;
+  border-width: 0 35px 35px 35px;
+  left: -.3rem;
+  top: -.06rem;
+  transform: rotate(-45deg); }
+
+.bao {
+  position: absolute;
+  left: -.16rem;
+  bottom: -.35rem;
+  display: block;
+  width: .5rem;
+  font-size: .12rem;
+  color: #fff; }
+
+.ding1 {
+  border-color: transparent transparent #f3bb4c transparent; }
+
+.ding1 .bao {
+  width: .9rem;
+  left: -.2rem; }
+
+footer {
+  width: 100%; }
+  footer ul li {
+    width: 25%;
+    text-align: center; }
+    footer ul li .iconfont {
+      color: #D0D0D4; }
+  footer ul .lili {
+    color: #FA3D3D; }
+
+/*# sourceMappingURL=style.css.map */
